@@ -1,0 +1,329 @@
+/* ==========================================================================
+   Nova – Personal Universe Dashboard: High Fidelity Cosmic Styling
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@600;700;800;900&display=swap');
+
+:root {
+  /* Dynamic Space-Inspired Palette Colors (Dark Theme Default) */
+  --space-bg-gradient: linear-gradient(135deg, #0B1020 0%, #111827 100%);
+  --card-bg: #1E293B;
+  --card-border: rgba(255, 255, 255, 0.08);
+
+  --primary-color: #6366F1;
+  /* Indigo */
+  --secondary-color: #8B5CF6;
+  /* Violet */
+
+  --success-color: #22C55E;
+  /* Green */
+  --warning-color: #F59E0B;
+  /* Orange */
+  --danger-color: #EF4444;
+  /* Red */
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --card-shadow-hover: 0 20px 40px -15px rgba(99, 102, 241, 0.3);
+
+  --font-cosmic: 'Orbitron', sans-serif;
+  --font-standard: 'Inter', sans-serif;
+
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Light Theme Variables Overrides */
+.light-theme {
+  --space-bg-gradient: linear-gradient(135deg, #F1F5F9 0%, #E2E8F0 100%);
+  --card-bg: #FFFFFF;
+  --card-border: rgba(99, 102, 241, 0.15);
+
+  --primary-color: #4F46E5;
+  --secondary-color: #7C3AED;
+
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+
+  --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: 0 20px 40px -15px rgba(79, 70, 229, 0.15);
+}
+
+/* Global App Wrapper */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-standard);
+  background: var(--space-bg-gradient);
+  color: var(--text-primary);
+  background-attachment: fixed;
+}
+
+/* Typography Rules */
+.cosmic-title {
+  font-family: var(--font-cosmic);
+  letter-spacing: 2px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #A5B4FC 0%, var(--primary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-theme .cosmic-title {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+/* Navigation Bar */
+.cosmic-nav {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--card-border);
+  background: rgba(11, 16, 32, 0.8) !important;
+}
+
+.light-theme .cosmic-nav {
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar-brand {
+  font-family: var(--font-cosmic);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Link navigation overrides */
+.cosmic-nav .nav-link {
+  color: var(--text-secondary) !important;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.cosmic-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.cosmic-nav .nav-link.active {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  border-bottom-color: var(--primary-color);
+}
+
+/* Glassmorphism/Modern Cards */
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.1),
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--primary-color);
+}
+
+/* Icons container layout */
+.planet-icon-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  transition: transform 0.5s ease, background-color 0.3s ease;
+  background: rgba(99, 102, 241, 0.08);
+}
+
+.light-theme .planet-icon-container {
+  background: rgba(79, 70, 229, 0.06);
+}
+
+.glass-card:hover .planet-icon-container {
+  transform: scale(1.08) rotate(5deg);
+}
+
+/* Buttons styling with modern gradients and hover effects */
+.cosmic-btn {
+  font-family: var(--font-standard);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 14px;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.cosmic-btn-primary {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+}
+
+.cosmic-btn-primary:hover {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+  transform: translateY(-2px);
+}
+
+.cosmic-btn-secondary {
+  background: transparent;
+  color: var(--text-primary) !important;
+  border: 2px solid var(--primary-color);
+}
+
+.cosmic-btn-secondary:hover {
+  background: rgba(99, 102, 241, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Progress bar wrappers */
+.cosmic-progress-container {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.light-theme .cosmic-progress-container {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.cosmic-progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+}
+
+/* Universal badge styles */
+.status-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 6px 14px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Header style updates */
+.header-card {
+  border: 1px solid var(--card-border);
+}
+
+.dark-theme .header-card {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.light-theme .header-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(241, 245, 249, 0.9) 100%);
+}
+
+/* Text class overrides for high contrast accessibility */
+.text-muted-custom {
+  color: var(--text-muted) !important;
+}
+
+.text-primary-custom {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary-custom {
+  color: var(--text-secondary) !important;
+}
+
+/* Centerpiece Orbit visualizer on Home Page */
+.universe-centerpiece {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 40px auto;
+}
+
+.central-star {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #FDE047 0%, #EAB308 60%, #CA8A04 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 60px 15px rgba(234, 179, 8, 0.35);
+  animation: pulse 4s infinite alternate;
+}
+
+.orbital-ring {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1.5px dashed rgba(99, 102, 241, 0.4);
+  border-radius: 50%;
+  animation: spin 24s linear infinite;
+}
+
+.orbital-planet {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  background: radial-gradient(circle, #A7F3D0 0%, #10B981 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.96);
+    box-shadow: 0 0 45px 10px rgba(234, 179, 8, 0.3);
+  }
+
+  100% {
+    transform: scale(1.04);
+    box-shadow: 0 0 75px 25px rgba(234, 179, 8, 0.50);
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Footer structure */
+.cosmic-footer {
+  border-top: 1px solid var(--card-border);
+  font-size: 0.9rem;
+}
+
+.dark-theme .cosmic-footer {
+  background: rgba(11, 16, 32, 0.95);
+}
+
+.light-theme .cosmic-footer {
+  background: rgba(241, 245, 249, 0.95);
+}

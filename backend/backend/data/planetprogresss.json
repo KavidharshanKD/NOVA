@@ -1,0 +1,245 @@
+[
+  {
+    "_id": "75hkg7dzlf3t5e8sg809qc",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Learning",
+    "progress": 20,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.157Z"
+  },
+  {
+    "_id": "ir0lzhlyagh9bdb0x8jium",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Career",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.158Z"
+  },
+  {
+    "_id": "gy42yx5ijqnfxl4vyq8xv",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Health",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.159Z"
+  },
+  {
+    "_id": "c9nx2fll3xtaq1jrtukpw",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Projects",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.160Z"
+  },
+  {
+    "_id": "azuboi48miwzwze4zzfre",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Finance",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.161Z"
+  },
+  {
+    "_id": "ca78yviwnnqgkxcwfkuoff",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Relationships",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.162Z"
+  },
+  {
+    "_id": "1qafvymgh28gb1537ay89",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Mindfulness",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.163Z"
+  },
+  {
+    "_id": "t7neriwii5m2mplktv1mk1",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Fitness",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.164Z"
+  },
+  {
+    "_id": "d8qcjzbeqlwqbglivfrzeg",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planetName": "Creativity",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:44:09.165Z"
+  },
+  {
+    "_id": "vld6se17m9ayvk695gyzuo",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Learning",
+    "progress": 20,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.185Z"
+  },
+  {
+    "_id": "xv6oas8k0rplpi3gj1lk2",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Career",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.189Z"
+  },
+  {
+    "_id": "xvbz951judlgrsvm8ypz2k",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Health",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.190Z"
+  },
+  {
+    "_id": "jery8clxh2kk5xeecculn",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Projects",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.195Z"
+  },
+  {
+    "_id": "lkrt5hevtq0mraoiawpdg",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Finance",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.198Z"
+  },
+  {
+    "_id": "csj3q62vtdcj2bfs2ij4zq",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Relationships",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.202Z"
+  },
+  {
+    "_id": "ekx88o5xpre26thsschp43",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Mindfulness",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.205Z"
+  },
+  {
+    "_id": "yi3ljaebltizk33qr2vhqh",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Fitness",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.209Z"
+  },
+  {
+    "_id": "qa5bjufnzorsy60nxg5hq",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planetName": "Creativity",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:50:28.211Z"
+  },
+  {
+    "_id": "8c8312fs6o5ib0rr7bzui8",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Learning",
+    "progress": 20,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.237Z"
+  },
+  {
+    "_id": "obs2roylo0mwlp3l0bnz6s",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Career",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.240Z"
+  },
+  {
+    "_id": "hdukuyhcm7mhx9kzby4r8c",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Health",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.242Z"
+  },
+  {
+    "_id": "gvtndcch8y6gccpi33v86s",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Projects",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.244Z"
+  },
+  {
+    "_id": "yvxbeuv3jzv1ltas6n4",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Finance",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.247Z"
+  },
+  {
+    "_id": "zk4ecy7xlmshag34ako6kp",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Relationships",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.253Z"
+  },
+  {
+    "_id": "u1brgyylougrvdny3qhli",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Mindfulness",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.256Z"
+  },
+  {
+    "_id": "uh6qvvs37nmvo1zmgobmg",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Fitness",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.260Z"
+  },
+  {
+    "_id": "2a96bf6873vecxbkjwb0cg",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planetName": "Creativity",
+    "progress": 0,
+    "level": 1,
+    "unlocked": true,
+    "createdAt": "2026-07-22T06:57:08.264Z"
+  }
+]

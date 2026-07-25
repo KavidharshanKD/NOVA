@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "ui87v8v697gppbcoal2o3",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "darkMode": true,
+    "accentColor": "#6366F1",
+    "fontSize": "medium",
+    "notificationsEnabled": true,
+    "language": "en",
+    "createdAt": "2026-07-22T06:44:09.157Z"
+  },
+  {
+    "_id": "h86yzn2bptssn5lkkhvfm",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "darkMode": true,
+    "accentColor": "#6366F1",
+    "fontSize": "small",
+    "notificationsEnabled": true,
+    "language": "en",
+    "createdAt": "2026-07-22T06:50:28.184Z"
+  },
+  {
+    "_id": "bkdh5lyj7ahiha59k7hfz8",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "darkMode": true,
+    "accentColor": "#6366F1",
+    "fontSize": "medium",
+    "notificationsEnabled": true,
+    "language": "en",
+    "createdAt": "2026-07-22T06:57:08.231Z"
+  }
+]

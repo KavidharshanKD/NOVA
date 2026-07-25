@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "1s4u4nwiy2ufg89tseak67",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "achievementId": "first_login",
+    "title": "First Login",
+    "description": "Establish secure communications and initiate Nova dashboard boot sequences.",
+    "createdAt": "2026-07-22T06:44:09.166Z"
+  },
+  {
+    "_id": "1enyjtzzg16mh0nyfaivb",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "achievementId": "first_login",
+    "title": "First Login",
+    "description": "Establish secure communications and initiate Nova dashboard boot sequences.",
+    "createdAt": "2026-07-22T06:50:28.212Z"
+  },
+  {
+    "_id": "hvvjs25s3hktqwyqv6a7pi",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "achievementId": "first_login",
+    "title": "First Login",
+    "description": "Establish secure communications and initiate Nova dashboard boot sequences.",
+    "createdAt": "2026-07-22T06:57:08.269Z"
+  }
+]

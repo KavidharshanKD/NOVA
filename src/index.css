@@ -1,0 +1,18 @@
+/* Clean Global CSS Resets */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Ensure #root takes the full height and layout */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

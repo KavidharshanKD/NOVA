@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "r93mmmh0wyzh1u5x8qju",
+    "userId": "xfxy5zdqthizn69fy5fjub",
+    "planName": "Deep Dev & React Mastery Plan",
+    "recommendedPlanet": "Learning",
+    "recommendedMissions": [
+      "Complete React Routing Labs",
+      "Refactor API Integrations with Axios",
+      "Build high-performance custom hooks"
+    ],
+    "dailySchedule": [
+      "09:00 AM - Study React Router concepts",
+      "11:30 AM - Develop components mockup",
+      "03:00 PM - Refactor state hooks & context"
+    ],
+    "weeklyGoals": [
+      "Secure dynamic authorization routes",
+      "Deploy full stack custom API integration"
+    ],
+    "recommendedXpTarget": 150,
+    "recommendedHabits": [
+      "Code for 2 hours daily",
+      "Read tech documentation articles",
+      "Contribute to portfolio repositories"
+    ],
+    "createdAt": "2026-07-22T06:44:09.208Z"
+  },
+  {
+    "_id": "o68pdh14eynknmcses06sp",
+    "userId": "f2zk8gl91fd8knsleptey",
+    "planName": "Deep Dev & React Mastery Plan",
+    "recommendedPlanet": "Learning",
+    "recommendedMissions": [
+      "Complete React Routing Labs",
+      "Refactor API Integrations with Axios",
+      "Build high-performance custom hooks"
+    ],
+    "dailySchedule": [
+      "09:00 AM - Study React Router concepts",
+      "11:30 AM - Develop components mockup",
+      "03:00 PM - Refactor state hooks & context"
+    ],
+    "weeklyGoals": [
+      "Secure dynamic authorization routes",
+      "Deploy full stack custom API integration"
+    ],
+    "recommendedXpTarget": 150,
+    "recommendedHabits": [
+      "Code for 2 hours daily",
+      "Read tech documentation articles",
+      "Contribute to portfolio repositories"
+    ],
+    "createdAt": "2026-07-22T06:50:28.227Z"
+  },
+  {
+    "_id": "hrr8wyn8vtpnvalux1kvld",
+    "userId": "51su3bv5xwvtugn01tes2d",
+    "planName": "Deep Dev & React Mastery Plan",
+    "recommendedPlanet": "Learning",
+    "recommendedMissions": [
+      "Complete React Routing Labs",
+      "Refactor API Integrations with Axios",
+      "Build high-performance custom hooks"
+    ],
+    "dailySchedule": [
+      "09:00 AM - Study React Router concepts",
+      "11:30 AM - Develop components mockup",
+      "03:00 PM - Refactor state hooks & context"
+    ],
+    "weeklyGoals": [
+      "Secure dynamic authorization routes",
+      "Deploy full stack custom API integration"
+    ],
+    "recommendedXpTarget": 150,
+    "recommendedHabits": [
+      "Code for 2 hours daily",
+      "Read tech documentation articles",
+      "Contribute to portfolio repositories"
+    ],
+    "createdAt": "2026-07-22T06:57:08.290Z"
+  }
+]
