@@ -9,13 +9,19 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
+# Determine base directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # Ensure output dir exists
-os.makedirs("ml", exist_ok=True)
+os.makedirs(BASE_DIR, exist_ok=True)
 
 # Load dataset
-data_path = "ml/dataset/nova_synthetic_data.csv"
+data_path = os.path.join(BASE_DIR, "dataset", "nova_synthetic_data.csv")
 if not os.path.exists(data_path):
     print("Dataset not found. Generating it first...")
+    import sys
+    if BASE_DIR not in sys.path:
+        sys.path.append(BASE_DIR)
     import generate_dataset
     # generate_dataset logic will run
 
@@ -77,6 +83,6 @@ for name, model in models.items():
 print(f"\nBest Model: {best_model_name} with {best_acc*100:.2f}% accuracy.")
 
 # Save best model and encoders
-joblib.dump(best_model, "ml/model.pkl")
-joblib.dump(encoders, "ml/encoder.pkl")
-print("Saved best model to ml/model.pkl and label encoders to ml/encoder.pkl.")
+joblib.dump(best_model, os.path.join(BASE_DIR, "model.pkl"))
+joblib.dump(encoders, os.path.join(BASE_DIR, "encoder.pkl"))
+print(f"Saved best model to {os.path.join(BASE_DIR, 'model.pkl')} and label encoders to {os.path.join(BASE_DIR, 'encoder.pkl')}.")

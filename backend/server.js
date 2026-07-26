@@ -22,8 +22,30 @@ const PORT = process.env.PORT || 5001;
 connectDB();
 
 // Middlewares
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://127.0.0.1:5173',
+  process.env.FRONTEND_URL
+].filter(Boolean);
+
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps, curl, postman)
+    if (!origin) return callback(null, true);
+    
+    // Check if origin is in the allowed list or is a Vercel preview/deployment URL
+    const isAllowed = allowedOrigins.includes(origin) || 
+                      origin.endsWith('.vercel.app') || 
+                      /https?:\/\/.*-.*\.vercel\.app$/.test(origin);
+                      
+    if (isAllowed) {
+      return callback(null, true);
+    }
+    
+    // Fallback during staging and evaluation, allow but log a warning
+    console.warn(`CORS request from unlisted origin: ${origin}. Allow access in evaluation mode.`);
+    return callback(null, true);
+  },
   credentials: true
 }));
 app.use(express.json());

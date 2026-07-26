@@ -4,7 +4,9 @@ import pandas as pd
 import numpy as np
 
 # Ensure directories exist
-os.makedirs("ml/dataset", exist_ok=True)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+dataset_dir = os.path.join(BASE_DIR, "dataset")
+os.makedirs(dataset_dir, exist_ok=True)
 
 # Set random seed for reproducibility
 random.seed(42)
@@ -191,7 +193,8 @@ for i in range(15000):
 
 # Save to CSV
 df = pd.DataFrame(data)
-df.to_csv("ml/dataset/nova_synthetic_data.csv", index=False)
-print(f"Generated synthetic dataset with {len(df)} rows at ml/dataset/nova_synthetic_data.csv")
+csv_path = os.path.join(dataset_dir, "nova_synthetic_data.csv")
+df.to_csv(csv_path, index=False)
+print(f"Generated synthetic dataset with {len(df)} rows at {csv_path}")
 print("Target distributions:")
 print(df['Personalized_Plan'].value_counts())

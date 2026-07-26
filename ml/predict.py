@@ -8,8 +8,9 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model and encoders
-MODEL_PATH = "ml/model.pkl"
-ENCODER_PATH = "ml/encoder.pkl"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
+ENCODER_PATH = os.path.join(BASE_DIR, "encoder.pkl")
 
 model = None
 encoders = None
@@ -19,7 +20,7 @@ if os.path.exists(MODEL_PATH) and os.path.exists(ENCODER_PATH):
     encoders = joblib.load(ENCODER_PATH)
     print("Model and Encoders loaded successfully.")
 else:
-    print("WARNING: Model and Encoders files are missing. Run train.py first!")
+    print(f"WARNING: Model and Encoders files are missing at {MODEL_PATH} and {ENCODER_PATH}. Run train.py first!")
 
 # Define concrete recommendations payload matching plans
 plan_details = {
@@ -334,5 +335,6 @@ def predict():
         return jsonify({'error': str(e)}), 400
 
 if __name__ == '__main__':
-    # Start on port 5000
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # Start on dynamic port
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
